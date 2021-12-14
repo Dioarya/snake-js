@@ -118,7 +118,6 @@ function checkHitWall() {
     head = snake.tail[snake.tail.length - 1]
     x = head.x
     y = head.y
-    console.log(x, -snake.size, x == -snake.size)
     if (x == -snake.size) {
         head.x = canvas.width - snake.size
     } else if (x == canvas.width) {
